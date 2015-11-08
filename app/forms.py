@@ -24,4 +24,4 @@ class RegistrationForm(forms.ModelForm):
 
     class Meta:
         model = CustomUser
-        fields = ['email', 'first_name', 'last_name']
+        fields = ['email', 'first_name', 'middle_name', 'last_name', 'sex', 'date_of_birth']
