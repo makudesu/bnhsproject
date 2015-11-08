@@ -26,6 +26,9 @@ class CustomUserManager(BaseUserManager):
 
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
+    class Meta:
+        swappable = 'AUTH_USER_MODEL'
+
     email = models.EmailField(_('email address'), max_length=254, unique=True)
     first_name = models.CharField(_('first name'), max_length=30)
     middle_name = models.CharField(_('middle name'), max_length=30)
