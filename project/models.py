@@ -6,7 +6,7 @@ from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseU
 
 from .choices import SEX_TYPE 
 
-class CustomUserManager(BaseUserManager):
+class MyUserManager(BaseUserManager):
 
     def _create_user(self, email, password, is_staff, is_superuser, **extra_fields):
         now = timezone.now()
@@ -25,7 +25,7 @@ class CustomUserManager(BaseUserManager):
         return self._create_user(email, password, True, True, **extra_fields)
 
 
-class CustomUser(AbstractBaseUser, PermissionsMixin):
+class MyUser(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(_('email address'), max_length=254, unique=True)
     first_name = models.CharField(_('first name'), max_length=30)
     middle_name = models.CharField(_('middle name'), max_length=30)
@@ -36,7 +36,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(_('active'), default=True)
     date_joined = models.DateTimeField(_('date joined'), default=timezone.now)
 
-    objects = CustomUserManager()
+    objects = MyUserManager()
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
