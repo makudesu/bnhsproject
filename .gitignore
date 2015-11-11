@@ -1,3 +1,4 @@
 *.sw*
 *.pyc
 project/settings.py
+docs/build/*
