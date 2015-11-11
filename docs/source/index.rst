@@ -5,6 +5,20 @@
 
 Welcome to bnhsproject's documentation!
 =======================================
+You can view the code of this project on `Github <https://github.com/makudesu/bnhsproject/>`_.
+
+bnhsproject is a Cloud-Based Enrollment System for Bambang National High School, Bambang Nueva Vizcaya, Philippines. This project is made possible using Open Source softwares. `Django <https://www.djangoproject.com>`_ | `Git <https://git-scm.com>`_ | `Github <https://github.com>`_ | `Sphinx <http://sphinx-doc.org>`_ | `RTD <https://readthedocs.org>`_ | `Python Anywhere <https://www.pythonanywhere.com>`_ | `Virtualenv <https://www.virtualenv.readthedocs.org>`_ . From the bottom of my heart, Thank you!
+
+Objectives of the Project:
+
+.. toctree::
+   :maxdepth: 3
+   :glob:
+   
+   objectives
+   scope and limitations
+   significance
+
 
 Contents:
 
@@ -13,6 +27,8 @@ Contents:
    :glob:
 
    registration
+   account
+   enrollment
 
 
 Indices and tables
