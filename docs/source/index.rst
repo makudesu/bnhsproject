@@ -9,9 +9,10 @@ Welcome to bnhsproject's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   :glob:
 
-    content
+   registration
 
 
 Indices and tables
