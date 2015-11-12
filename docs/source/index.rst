@@ -5,6 +5,8 @@
 
 Welcome to bnhsproject |release| documentation!
 =======================================
+Last update:
+
 |today|
 
 
