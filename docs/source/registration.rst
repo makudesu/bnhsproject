@@ -1,3 +1,5 @@
+.. _registration:
+
 ************
 Registration
 ************
@@ -37,4 +39,4 @@ Email Confirmation
 
 Profile Creation
 ^^^^^^^^^^^^^^^^
-    Before you can enroll, you need to create your User Profile. It contains all the necessary information to enroll. If you already have a User Profile you can modify it easily. Check out AccountmanagementUserProfileEdit
+    Before you can enroll, you need to create your User Profile. It contains all the necessary information to enroll. If you already have a User Profile you can modify it easily. Check out :ref:`user profile`.
