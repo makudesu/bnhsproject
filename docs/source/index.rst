@@ -5,7 +5,7 @@
 
 Welcome to bnhsproject |release| documentation!
 ===============================================
-**NOTE:** *This project is currently under heavy development (if you found any typo, grammar error, broken link please tell me). The first version will be online in a few weeks where students will be able to test the enrollment app (as per Melvin P. Hernandez' request). If you wanna know more about the details please take a couple minutes to* `email`_ *me.*
+**NOTE:** *This project is currently under heavy development (if you found any typo, grammar error, broken link please tell me). The first version will be online in a few weeks where students will be able to test the enrollment app. If you wanna know more about the details please take a couple minutes to* `email`_ *me.*
 
 .. _email: mailto:makudesu@grex.org
 .. _Bambang National High School: http://wikimapia.org/19298138/Bambang-National-High-School
