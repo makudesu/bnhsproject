@@ -1,9 +1,9 @@
-************
 Significance
-************
+============
 
 Significance of the study 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
+
     The significance of the study would justify the need to conduct the study. It should specify the grouped of people who will benefit from the study and description of how these people will be arranged according to who should benefit most.
 
     Freshmen, transferees, Old. The study will also help students to be knowledgeable enough on entering the information technology fields as applying the lectures to actual performances and to inform them of an easy way of processing enrollment. It will give them also a background and become more advance and be familiar on having a new way of enrolling.
