@@ -7,7 +7,7 @@ General Objectives
     The main objective of the study is to develop a Cloud Based Enrollment System for Bambang National High School.
 
 Specific Objectives
-------------------
+-------------------
 
 * To lessen the workloads of the administrators and Faculties
 * To minimize the time and effort of the students during enrollment season.
