@@ -3,7 +3,7 @@
 Enrollment
 ==========
 
-**Note** YOU NEED TO BE SIGNED IN TO ENROLL. If you don't have account please check :ref:`registration`.
+**Note** YOU NEED TO BE SIGNED IN TO ENROLL. If you don't have an account please check :ref:`registration`.
 
 New Student
 -----------
