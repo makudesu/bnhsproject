@@ -4,10 +4,9 @@ Scope and Limitations
 Scope
 -----
 
-* The cloud based enrollment system is a portal type that covers the major processes in the enrollment system, namely registration of the new students, enrollment of old and new students, files maintenance such as list of enrolled students in different year level in public high schools.
-* Administrators have total access to the system, confirmed the students who are officially enrolled and generate records of the students, sectioning the students in every year level.
-* The system give further information about the enrollment process as to know how many students are enrolled in every year level. 
-* The old, new, transferees’ students with the following services: register into the enrollment form in the online enrollment website, viewing assessment fees.
+* The cloud based enrollment system is a portal that covers the major processes in the enrollment of old, new, transferre and dropout students, file maintenance such as listing of enrolled students in different year levels.
+* Administrators have total access to the system, confirming the students who are currently registering and/or enrolling, generating records, sectioning the students in every year level.
+* The system gives further information about the enrollment process as to know how many students are enrolled in every year level. 
 
 Limitations 
 -----------
