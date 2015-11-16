@@ -8,7 +8,7 @@ Enrollment
 Freshmen
 -----------
 
-    New student here.
+    Freshmen here.
 
 Old Student
 -----------
@@ -18,7 +18,7 @@ Old Student
 Transferees
 ------------
 
-    Transferree here.
+    Transferee here.
 
 Dropout
 -------

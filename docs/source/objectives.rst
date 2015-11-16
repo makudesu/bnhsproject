@@ -12,5 +12,5 @@ Specific Objectives
 * To lessen the workloads of the administrators and Faculties
 * To minimize the time and effort of the students during enrollment season.
 * To develop an accurate and easiest way of enrollment of the students of    Bambang National High School by accessing it into the internet. 
-
+* To provide security of student information and admin in accessing the enrollment website.
 
