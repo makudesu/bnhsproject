@@ -22,8 +22,8 @@ Requirements
     Less Secured:
 
        * `mail <http://www.mail.com/>`_
-       * `lycos <mail http://mail.lycos.com/>`_
-       * `zoho <mail http://www.zoho.com/mail/>`_
+       * `lycos <http://mail.lycos.com/>`_
+       * `zoho <http://www.zoho.com/mail/>`_
        * `openmail <http://openmail.com/>`_
        * `inbox <http://www.inbox.com/>`_
        * `aol mail <http://mail.aol.com/>`_
