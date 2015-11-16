@@ -5,7 +5,7 @@ Enrollment
 **Under Development**
 **Note** YOU NEED TO BE SIGNED IN TO ENROLL. If you don't have an account please check :ref:`registration`.
 
-New Student
+Freshmen
 -----------
 
     New student here.
