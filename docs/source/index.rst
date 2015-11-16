@@ -11,10 +11,7 @@ Welcome to bnhsproject |release| documentation!
     * Emmanuel D. Soriano -- Maintenance of the Documentation
     * Alona Mae Vargas -- Provided the Objectives of the Project
     * Melvin P. Hernandez -- Provided the BNHS Link
-<<<<<<< HEAD
     * Marvin P. Hernandez -- Site tester
-=======
->>>>>>> 2747dcca07385723ec9d09299c5532d2abf2e28d
 
 .. _email: mailto:makudesu@grex.org
 .. _Bambang National High School: http://wikimapia.org/19298138/Bambang-National-High-School
