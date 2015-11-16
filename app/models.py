@@ -4,7 +4,9 @@ from django.utils.http import urlquote
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseUserManager
 
+from django.core.urlresolvers import reverse
 from django.template.defaultfilters import slugify
+
 from .choices import SEX_TYPE 
 
 class CustomUserManager(BaseUserManager):
