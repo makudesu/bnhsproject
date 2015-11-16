@@ -4,6 +4,7 @@ from django.utils.http import urlquote
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseUserManager
 
+from django.template.defaultfilters import slugify
 from .choices import SEX_TYPE 
 
 class CustomUserManager(BaseUserManager):
@@ -39,6 +40,8 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(_('active'), default=True)
     date_joined = models.DateTimeField(_('date joined'), default=timezone.now)
 
+
+    slug = models.SlugField(max_length=100, unique=True)
     objects = CustomUserManager()
 
     USERNAME_FIELD = 'email'
@@ -49,9 +52,6 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
         verbose_name_plural = _('users')
         unique_together = ('first_name', 'middle_name', 'last_name', 'date_of_birth', 'sex',)
 
-    def get_absolute_url(self):
-        return "/users/%s/" % urlquote(self.email)
-
     def get_full_name(self):
         full_name = '%s %s' %(self.first_name, self.last_name)
         return full_name.strip()
@@ -59,11 +59,16 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     def get_short_name(self):
         return self.first_name
 
-    def email_user(self, subject, message, from_email=None):
-        send_mail(subject, message, from_email, [self.email])
-
     class Meta:
         permissions = (
             ('view_task', 'View task'),
 
         )
+
+    def save(self, *args, **kwargs):
+        if not self.id:
+            self.slug = slugify(self.email)
+        super(CustomUser, self).save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return reverse('detail', kwargs={'slug': self.slug})

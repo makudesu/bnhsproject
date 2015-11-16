@@ -16,7 +16,7 @@ Last update:
 |today|
 
 
-    bnhsproject is a Cloud-Based Enrollment System for `Bambang National High School`_, `Bambang Nueva Vizcaya`_, Philippines. This project is made possible using Open Source software. `Django <https://www.djangoproject.com>`_ | `Git <https://git-scm.com>`_ | `Github <https://github.com>`_ | `Sphinx <http://sphinx-doc.org>`_ | `RTD <https://readthedocs.org>`_ | `Python Anywhere <https://www.pythonanywhere.com>`_ | `Virtualenv <https://www.virtualenv.readthedocs.org>`_ . From the bottom of my heart, Thank you!
+    bnhsproject is a Cloud-Based Enrollment System for `Bambang National High School`_, `Bambang Nueva Vizcaya`_, Philippines. This project is made possible using Open Source software. `Django <https://www.djangoproject.com>`_ | `Git <https://git-scm.com>`_ | `Github <https://github.com>`_ | `Sphinx <http://sphinx-doc.org>`_ | `RTD <https://readthedocs.org>`_ | `Python Anywhere <https://www.pythonanywhere.com>`_ | `Virtualenv <http://www.virtualenv.readthedocs.org>`_ . From the bottom of my heart, Thank you!
 
     You can view the code of this project on my `Github Page <https://github.com/makudesu/bnhsproject/>`_. You can reach me at my `email`_.
 
