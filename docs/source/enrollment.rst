@@ -15,7 +15,7 @@ Old Student
 
     Old student here.
 
-Transferring
+Transferees
 ------------
 
     Transferree here.
