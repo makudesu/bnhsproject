@@ -68,8 +68,10 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
         )
 
     def save(self, *args, **kwargs):
+        import pdb; pdb.set_trace()
         if not self.id:
-            self.slug = slugify(self.email)
+            full_name_slug = '%s %s %s' %(self.last_name, self.middle_name, self.first_name) 
+            self.slug = slugify(full_name_slug)
         super(CustomUser, self).save(*args, **kwargs)
 
     def get_absolute_url(self):
