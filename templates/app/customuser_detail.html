@@ -1,4 +1,8 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
 <h1>
-{{customuser.email|upper}}
+Edit User Profile
 <a href='{% url "update" customuser.slug %}'> Edit</a>
 </h1>
+{% endblock  %}

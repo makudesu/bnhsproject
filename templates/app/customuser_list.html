@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<ul>
+    {% for customuser in customuser_list %}
+        <li> 
+        <a href='{% url "detail" customuser.slug %}'>
+            Profile
+            {{customuser.email}}
+        </a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock  %}
