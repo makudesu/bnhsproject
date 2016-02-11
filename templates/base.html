@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+{% load bootstrap_themes %}
+{% bootstrap_styles theme='default' type='min.css' %}
+
 <html>
   <head>
     <title>{% block head_title %}{% endblock %}</title>
@@ -20,14 +23,16 @@
     {% endif %}
 
     <div>
-      <strong>Menu:</strong>
-      <ul>
+      <ul class="nav nav-tabs">
+
 	{% if user.is_authenticated %}
-	<li><a href="{% url 'account_email' %}">Change E-mail</a></li>
-	<li><a href="{% url 'account_logout' %}">Sign Out</a></li>
+
+	<li class=""><a href="/accounts/profile/" data-toggle="tab">Profile</a></li>
+	<li class=""><a href="{% url 'account_email' %}" data-toggle="tab" aria-expanded="true">Change E-mail</a></li>
+	<li class=""><a href="{% url 'account_logout' %}" data-toggle="tab" aria-expanded="false">Sign Out</a></li>
 	{% else %}
-	<li><a href="{% url 'account_login' %}">Sign In na tol</a></li>
-	<li><a href="{% url 'account_signup' %}">Sign Up</a></li>
+	<li class=""><a href="{% url 'account_login' %}" data-toggle="tab" aria-expanded="false">Sign In na tol</a></li>
+	<li class=""><a href="{% url 'account_signup' %}" data-toggle="tab" aria-expanded="false">Sign Up</a></li>
 	{% endif %}
       </ul>
     </div>
